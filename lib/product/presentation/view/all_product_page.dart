@@ -76,9 +76,7 @@ class _AllProductPageState extends State<AllProductPage> {
           Padding(
             padding: const EdgeInsets.only(right: 16.0, top: 8.0),
             child: GestureDetector(
-              onTap: () {
-                // Navigate to Cart Page
-              },
+              onTap: () {},
               child: Stack(
                 alignment: Alignment.topRight,
                 children: [
